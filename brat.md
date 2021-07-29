@@ -7,5 +7,5 @@ docker build --build-arg username=<UserName> --build-arg password=<Password> --b
 docker run -dit --name <ContainerName> -p 8080:80 <ImageName>
 ```
 
-Then in the browser, navigate to [localhost:8080/brat/#](http://localhost:8080/brat/#).  It may be that you have to refresh the first page if it only partially displays.
+Then in the browser, navigate to [localhost:8080/brat](http://localhost:8080/brat).  It may be that you have to refresh the first page if it only partially displays.
 
